@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="menu.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<menu>
+    <!-- ANTIPASTI -->
+    <categoria tipo="Antipasti">
+        <piatto>
+            <nome>Bruschetta al Pomodoro</nome>
+            <descrizione>Pane tostato con pomodoro fresco, basilico e olio d'oliva: un inizio
+                leggero e rinfrescante.</descrizione>
+            <prezzo>8.99</prezzo>
+            <codProdotto>0001</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Carpaccio di Manzo</nome>
+            <descrizione>Fettine sottili di manzo marinato con rucola e parmigiano: un'esplosione di
+                sapore in ogni boccone.</descrizione>
+            <prezzo>11.99</prezzo>
+            <codProdotto>0002</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Insalata Caprese</nome>
+            <descrizione>Mozzarella fresca, pomodoro e basilico.</descrizione>
+            <prezzo>9.99</prezzo>
+            <codProdotto>0003</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Calamari Fritti</nome>
+            <descrizione>Calamari teneri fritti con salsa marinara.</descrizione>
+            <prezzo>10.99</prezzo>
+            <codProdotto>0004</codProdotto>
+        </piatto>
+    </categoria>
+    <!-- PRIMI PIATTI -->
+    <categoria tipo="Primi piatti">
+        <piatto>
+            <nome>Lasagne alla Bolognese</nome>
+            <descrizione>Strati di pasta con carne macinata, besciamella e formaggio gratinato.</descrizione>
+            <prezzo>12.99</prezzo>
+            <codProdotto>0005</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Risotto ai Funghi Porcini</nome>
+            <descrizione>Risotto cremoso con funghi porcini e prezzemolo.</descrizione>
+            <prezzo>13.99</prezzo>
+            <codProdotto>0006</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Spaghetti alla Carbonara</nome>
+            <descrizione>Spaghetti con uova, guanciale, pecorino e pepe nero.</descrizione>
+            <prezzo>11.99</prezzo>
+            <codProdotto>0007</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Gnocchi al Pesto</nome>
+            <descrizione>Gnocchi di patate con pesto di basilico e pinoli.</descrizione>
+            <prezzo>14.99</prezzo>
+            <codProdotto>0008</codProdotto>
+        </piatto>
+    </categoria>
+    <!-- SECONDI PIATTI -->
+    <categoria tipo="Secondi piatti">
+        <piatto>
+            <nome>Filetto di Salmone</nome>
+            <descrizione>Salmone grigliato con salsa al limone e verdure alla griglia.</descrizione>
+            <prezzo>18.99</prezzo>
+            <codProdotto>0009</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Ossobuco alla Milanese</nome>
+            <descrizione>Ossobuco di vitello cotto lentamente con zafferano.</descrizione>
+            <prezzo>22.99</prezzo>
+            <codProdotto>0010</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Pollo alla Cacciatora</nome>
+            <descrizione>Cacciatora Pollo in salsa di pomodoro con peperoni, cipolle e olive nere.</descrizione>
+            <prezzo>16.99</prezzo>
+            <codProdotto>0011</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Bistecca Fiorentina</nome>
+            <descrizione>Bistecca alla griglia servita con patate al rosmarino.</descrizione>
+            <prezzo>Prezzo al peso</prezzo>
+            <codProdotto>0012</codProdotto>
+        </piatto>
+    </categoria>
+    <!-- CONTORNI -->
+    <categoria tipo="Contorni">
+        <piatto>
+            <nome>Patate al Forno</nome>
+            <descrizione>Patate al forno con rosmarino.</descrizione>
+            <prezzo>5.99</prezzo>
+            <codProdotto>0013</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Verdure alla Griglia</nome>
+            <descrizione>Selezione di verdure grigliate.</descrizione>
+            <prezzo>4.99</prezzo>
+            <codProdotto>0014</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Insalata Mista</nome>
+            <descrizione>Insalata mista con pomodori, cetrioli e balsamico.</descrizione>
+            <prezzo>16.99</prezzo>
+            <codProdotto>0015</codProdotto>
+        </piatto>
+    </categoria>
+    <!-- DOLCI -->
+    <categoria tipo="Dolci">
+        <piatto>
+            <nome>Tiramisù</nome>
+            <descrizione>Il dolce italiano per eccellenza: cremoso e profumato.</descrizione>
+            <prezzo>7.99</prezzo>
+            <codProdotto>0016</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Panna Cotta</nome>
+            <descrizione>Deliziosa panna cotta con salsa al caramello: semplice e irresistibile.</descrizione>
+            <prezzo>6.99</prezzo>
+            <codProdotto>0017</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Cannoli Siciliani</nome>
+            <descrizione>Croccanti cannoli ripieni di ricotta e cioccolato: una prelibatezza
+                siciliana.</descrizione>
+            <prezzo>8.99</prezzo>
+            <codProdotto>0018</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Gelato Artigianale</nome>
+            <descrizione>Assortimento di gusti: un finale dolce e rinfrescante.</descrizione>
+            <prezzo>4.99</prezzo>
+            <codProdotto>0019</codProdotto>
+        </piatto>
+    </categoria>
+    <!-- BEVANDE -->
+    <categoria tipo="Bevande">
+        <piatto>
+            <nome>Vini Selezionati</nome>
+            <descrizione>Vasta selezione di vini rossi, bianchi e rosati.</descrizione>
+            <prezzo>Varia</prezzo>
+            <codProdotto>0020</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Acqua Minerale</nome>
+            <descrizione>Acqua fresca e pura per dissetarti.</descrizione>
+            <prezzo>2.99</prezzo>
+            <codProdotto>0021</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Birra Artigianale</nome>
+            <descrizione>Varie marche e stili: per gli amanti della birra.</descrizione>
+            <prezzo>5.99</prezzo>
+            <codProdotto>0022</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Caffè Espresso</nome>
+            <descrizione>Un espresso italiano per concludere la cena con stile.</descrizione>
+            <prezzo>2.50</prezzo>
+            <codProdotto>0023</codProdotto>
+        </piatto>
+        <piatto>
+            <nome>Bevande Analcoliche</nome>
+            <descrizione>Varie bibite analcoliche: per chi preferisce una scelta senza alcol.</descrizione>
+            <prezzo>3.00</prezzo>
+            <codProdotto>0024</codProdotto>
+        </piatto>
+    </categoria>
+</menu>
